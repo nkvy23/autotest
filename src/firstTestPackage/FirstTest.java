@@ -19,7 +19,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
       driver = new ChromeDriver();
       driver.get(baseUrl);
 
-      String expectedTitle = "Guru99 Bank Home Page";
+      String expectedTitle = "Guru99 Bank Home Page hihi";
       String actualTitle = driver.getTitle(); 
       Assert.assertEquals(actualTitle, expectedTitle);
       driver.close();
